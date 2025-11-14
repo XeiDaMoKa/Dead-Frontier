@@ -31,7 +31,7 @@ Scripts auto-update via GitHub. Enable them in the Tampermonkey dashboard.
 - OA warning system in page
 - Remove Facebook button
 
-![Layouts Script](https://img.xeidamoka.com/DeadFrontier/Scripts/Layouts-Guide.png)
+![Layouts Script](https://img.xeidamoka.com/DeadFrontier/Scripts/Guide-Layouts.png)
 
 Install **[Layouts](https://github.com/XeiDaMoKa/Dead-Frontier/raw/Dead%20Frontier%20-%20Layouts.user.js)** Script
 
@@ -123,13 +123,18 @@ Install **[Cheapest](https://github.com/XeiDaMoKa/Dead-Frontier/raw/Dead%20Front
 ---
 
 ## Sources
-- **Main Repository**: https://github.com/XeiDaMoKa/Dead-Frontier
-- **Notion**: https://xeidamoka.notion.site/Scripts-2a02a9c404f780548a5ded90ec04d5e3
-- **Support**: https://fairview.deadfrontier.com/onlinezombiemmo/index.php?action=pm;sa=send
+
+[![Website](https://img.shields.io/badge/Website-330066?style=for-the-badge&logo=internet-&logoColor=white)](https://xeidamoka.com/DeadFrontier/Scripts)
+[![GitHub](https://img.shields.io/badge/GitHub-003366?style=for-the-badge&logo=github&logoColor=white)](https://github.com/XeiDaMoKa/Dead-Frontier)
+[![Support](https://img.shields.io/badge/Support-663300?style=for-the-badge&logo=wechat&logoColor=white)](https://fairview.deadfrontier.com/onlinezombiemmo/index.php?action=pm;sa=send)
+[![Issues](https://img.shields.io/badge/Issues-660000?style=for-the-badge&logo=exclamation&logoColor=white)](https://github.com/XeiDaMoKa/Dead-Frontier/issues)
+
+
+
 
 ### Special Thanks
-- **Vega** — Inspiration for many script concepts
-- **AI** — Helped in some ways, made things harder in others
-- **HotRods** — Pending permission
+- **Vega**: Inspiration for many script concepts
+- **HotRods**: Pending permission
+- **AI**: Made some things easy, others not so much
 
 ---
