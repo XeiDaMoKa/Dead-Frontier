@@ -1,10 +1,16 @@
 // ==UserScript==
-// @name         Dead Frontier - Prices
-// @version      1.0.0
-// @description  Displays market value in items tooltips with price comparison. Handles color prefixes in item names for accurate price searching. Saves collection book items to storage on tab switch and displays collected quantity in tooltips (aggregating across colors for base item). Also works in collection book tooltips and market search results.
-// @author       You
-// @icon            https://www.google.com/s2/favicons?sz=64&domain=deadfrontier.com
-// @match        https://fairview.deadfrontier.com/*
+// @name                      Dead Frontier - Prices
+// @version                  1.0.0
+// @description          Displays market value in the item tooltips with scrap price comparison (depends on item colors.) Saves collection book items to storage by visiting each tab and displays on tooltips (doesn't depend on item colors.)
+// @author                  XeiDaMoKa [2373510]
+// @source                  https://github.com/XeiDaMoKa/Dead-Frontier
+// @downloadURL     https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Prices.user.js
+// @updateURL         https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Prices.user.js
+// @supportURL       https://fairview.deadfrontier.com/onlinezombiemmo/index.php?action=pm;sa=send
+// @supportURL      https://github.com/XeiDaMoKa/Dead-Frontier/issues
+// @match                https://fairview.deadfrontier.com/*
+// @icon                   https://www.google.com/s2/favicons?sz=64&domain=deadfrontier.com
+// @grant                GM_xmlhttpRequest
 // ==/UserScript==
 
 (function() {

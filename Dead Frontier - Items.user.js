@@ -1,15 +1,16 @@
 // ==UserScript==
-// @name                         Dead Frontier - Items
-// @version                      1.0
-// @description               Fixes colored items images and adjusts weapon image zoom (Optimized with mask fallback)
-// @author                      XeiDaMoKa [2373510]
-// @source                      https://xeidamoka.notion.site/Dead-Frontier-Layouts-2a02a9c404f780acbeb6f82c95f72d91
-// @downloadURL          https://github.com/XeiDaMoKa/Torn/raw/Xei/Scripts/Aquarius//ChainWatchers.user.js
-// @updateURL              https://github.com/XeiDaMoKa/Torn/raw/Xei/Scripts/Aquarius//ChainWatchers.user.js
-// @supportURL             https://fairview.deadfrontier.com/onlinezombiemmo/index.php?action=pm;sa=send
-// @supportURL             https://github.com/XeiDaMoKa/Torn/issues
-// @match                       https://fairview.deadfrontier.com/*
-// @icon                           https://www.google.com/s2/favicons?sz=64&domain=deadfrontier.com
+// @name                     Dead Frontier - Items
+// @version                  1.0
+// @description           Replaces default images with their coorect colored sources. Repositions / Zooms items in their slots and tooltip popups. If some item is missing / invisible add it below in the IMAGES object with its correct source link (Dev Tools > Network).
+// @author                  XeiDaMoKa [2373510]
+// @source                  https://github.com/XeiDaMoKa/Dead-Frontier
+// @downloadURL      https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Items.user.js
+// @updateURL          https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Items.user.js
+// @supportURL        https://fairview.deadfrontier.com/onlinezombiemmo/index.php?action=pm;sa=send
+// @supportURL        https://github.com/XeiDaMoKa/Dead-Frontier/issues
+// @match                  https://fairview.deadfrontier.com/*
+// @icon                      https://www.google.com/s2/favicons?sz=64&domain=deadfrontier.com
+// @grant                   GM_xmlhttpRequest
 // ==/UserScript==
 
 (function () {

@@ -1,16 +1,16 @@
 // ==UserScript==
 // @name                        Dead Frontier - Layout
 // @version                     1.00
-// @description              Organizes Player Display, Adds icons to outpost and adds favorites.
+// @description              Organizes Side bar, Adds icons to outpost and favorites.
 // @author                      XeiDaMoKa [2373510]
-// @source                      https://xeidamoka.notion.site/Dead-Frontier-Layouts-2a02a9c404f780acbeb6f82c95f72d91
-// @downloadURL          https://github.com/XeiDaMoKa/Torn/raw/Xei/Scripts/Aquarius//ChainWatchers.user.js
-// @updateURL              https://github.com/XeiDaMoKa/Torn/raw/Xei/Scripts/Aquarius//ChainWatchers.user.js
+// @source                      https://github.com/XeiDaMoKa/Dead-Frontier
+// @downloadURL          https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Layouts.user.js
+// @updateURL              https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Layouts.user.js
 // @supportURL             https://fairview.deadfrontier.com/onlinezombiemmo/index.php?action=pm;sa=send
-// @supportURL             https://github.com/XeiDaMoKa/Torn/issues
+// @supportURL             https://github.com/XeiDaMoKa/Dead-Frontier/issues
 // @match                       https://fairview.deadfrontier.com/*
-// @icon                           https://www.google.com/s2/favicons?sz=64&domain=deadfrontier.com
-// @grant                         GM_xmlhttpRequest
+// @icon                          https://www.google.com/s2/favicons?sz=64&domain=deadfrontier.com
+// @grant                        GM_xmlhttpRequest
 // ==/UserScript==
 
 (function () {

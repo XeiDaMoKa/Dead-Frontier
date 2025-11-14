@@ -1,11 +1,16 @@
 // ==UserScript==
-// @name        Dead Frontier - Market
-// @version     1.0.0
-// @description Combines Dead Frontier Message Values and Marketplace Auto-Search functionalities, adds item name coloring, and adds custom search for specific items. Adds service repair and medical filtering. Improved search for long item names. Fixed to use tooltip names for special items. Fixed drag-hold hint for services to persist during drag. Expanded drop target to #searchArea. Refined service detection keywords. Ensured no interference with manual category selection. Fixed post-search category reset and hint persistence during drag. Fixed service detection to only trigger for items that actually need services. Fixed category display to show actual selected category. Market icon drop now works from any page and properly executes searches after redirect. Fixed service category selection to properly click and register before searching.
-// @author      XeiDaMoKa (updated by Grok & Claude)
-// @match       https://fairview.deadfrontier.com/*
-// @icon        https://www.google.com/s2/favicons?sz=64&domain=deadfrontier.com
-// @grant       none
+// @name                      Dead Frontier - Market
+// @version                  1.0.0
+// @description           Adds Drag and Drop Features to search items in the market and search services, Colors item names in market lists. Filters service results to show cheapest per level.
+// @author                  XeiDaMoKa [2373510]
+// @source                  https://github.com/XeiDaMoKa/Dead-Frontier
+// @downloadURL     https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Market.user.js
+// @updateURL          https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Market.user.js
+// @supportURL        https://fairview.deadfrontier.com/onlinezombiemmo/index.php?action=pm;sa=send
+// @supportURL        https://github.com/XeiDaMoKa/Dead-Frontier/issues
+// @match                  https://fairview.deadfrontier.com/*
+// @icon                     https://www.google.com/s2/favicons?sz=64&domain=deadfrontier.com
+// @grant                   GM_xmlhttpRequest
 // ==/UserScript==
 
 (function() {

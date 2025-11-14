@@ -1,18 +1,18 @@
 // ==UserScript==
-// @name        Dead Frontier - Favorites
-// @version     1.0.0
-// @description Auto Bank buttons and Market Price display that appear on hover over respective icons, now with integrated QuickBuy functionality and intelligent button coloring
-// @author                      XeiDaMoKa [2373510]
-// @source                      https://xeidamoka.notion.site/Dead-Frontier-Layouts-2a02a9c404f780acbeb6f82c95f72d91
-// @downloadURL          https://github.com/XeiDaMoKa/Torn/raw/Xei/Scripts/Aquarius//ChainWatchers.user.js
-// @updateURL              https://github.com/XeiDaMoKa/Torn/raw/Xei/Scripts/Aquarius//ChainWatchers.user.js
-// @supportURL             https://fairview.deadfrontier.com/onlinezombiemmo/index.php?action=pm;sa=send
-// @supportURL             https://github.com/XeiDaMoKa/Torn/issues
-// @match                       https://fairview.deadfrontier.com/*
-// @icon                           https://www.google.com/s2/favicons?sz=64&domain=deadfrontier.com
-// @grant       GM_xmlhttpRequest
-// @grant       GM_getValue
-// @grant       GM_setValue
+// @name                    Dead Frontier - Favorites
+// @version                 1.0.0
+// @description          Enhancments for Layout Script, adds Deposit and Withdraw buttons to Favorited bank icon, adds quick buy bullets and compares medical and food items prices and their effects.
+// @author                  XeiDaMoKa [2373510]
+// @source                  https://github.com/XeiDaMoKa/Dead-Frontier
+// @downloadURL     https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Favorites.user.js
+// @updateURL         https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Favorites.user.js
+// @supportURL        https://fairview.deadfrontier.com/onlinezombiemmo/index.php?action=pm;sa=send
+// @supportURL        https://github.com/XeiDaMoKa/Dead-Frontier/issues
+// @match                  https://fairview.deadfrontier.com/*
+// @icon                     https://www.google.com/s2/favicons?sz=64&domain=deadfrontier.com
+// @grant                  GM_xmlhttpRequest
+// @grant                  GM_getValue
+// @grant                  GM_setValue
 // ==/UserScript==
 
 (function() {
@@ -35,7 +35,6 @@
         { name: 'Hemostatic Gauze', healingValue: 45 },
         { name: 'Steroids', healingValue: 66 },
         { name: 'Mini First Aid Kit', healingValue: 150 },
-
     ];
 
     const BULLET_ITEMS = [
