@@ -2,6 +2,9 @@
 
 A set of user-scripts to enhance your Dead Frontier gaming experience with organized layout and quality-of-life improvements.
 
+---
+---
+
 ## 🐾 Step by Step
 
 1. Install [Tampermonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) from Chrome Store.
@@ -10,26 +13,32 @@ A set of user-scripts to enhance your Dead Frontier gaming experience with organ
 4. Refresh your Dead Frontier page.
 5. If prompted, select **Always allow this domain**.
 
-Any kind of suggestions, problems or bugs let me know at [![Dead Frontier](https://img.shields.io/badge/%F0%9F%A7%9F_DeadFrontier-663300?style=for-the-badge)](https://fairview.deadfrontier.com/onlinezombiemmo/index.php?action=pm;sa=send) or [![Issues](https://img.shields.io/badge/%F0%9F%90%9E_Issues-660000?style=for-the-badge)](https://github.com/XeiDaMoKa/Dead-Frontier/issues)
+Any kind of suggestions, problems or bugs let me know at
+[![Dead Frontier](https://img.shields.io/badge/%F0%9F%A7%9F_DeadFrontier-663300?style=for-the-badge)](https://fairview.deadfrontier.com/onlinezombiemmo/index.php?action=pm;sa=send)
+or
+[![Issues](https://img.shields.io/badge/%F0%9F%90%9E_Issues-660000?style=for-the-badge)](https://github.com/XeiDaMoKa/Dead-Frontier/issues)
 
 Scripts auto-update via GitHub, enable them in the Tampermonkey dashboard.
 
 ---
+---
 
 ## Index
 
-- [Layouts Script](#layouts)
-- [Prices Script](#prices)
-- [Items Script](#items)
-- [Market Script](#market)
-- [Missions Script](#missions)
-- [Cheapest Script](#cheapest)
-- [Favorites Script](#favorites)
+- [Layouts Script](#layouts-script)
+- [Prices Script](#prices-script)
+- [Items Script](#items-script)
+- [Market Script](#market-script)
+- [Missions Script](#missions-script)
+- [Cheapest Script](#cheapest-script)
+- [Favorites Script](#favorites-script)
 - [Sources](#sources)
 
 ---
 
-## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Logo.png" width="40" /> **Layouts Script** {#layouts}
+## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Logo.png" width="40" /> Layouts Script
+
+### <a id="layouts-script"></a>
 
 [![Install](https://img.shields.io/badge/Install-660099?style=for-the-badge)](https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/File/Layouts.user.js)
 
@@ -50,7 +59,9 @@ Scripts auto-update via GitHub, enable them in the Tampermonkey dashboard.
 
 ---
 
-## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Prices/img/Prices-Logo.png" width="40" /> **Prices Script** {#prices}
+## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Prices/img/Prices-Logo.png" width="40" /> Prices Script
+
+### <a id="prices-script"></a>
 
 [![Install](https://img.shields.io/badge/Install-006600?style=for-the-badge)](https://host.xeidamoka.com/DeadFrontier/Scripts/Prices/File/Prices.user.js)
 
@@ -65,7 +76,9 @@ Scripts auto-update via GitHub, enable them in the Tampermonkey dashboard.
 
 ---
 
-## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Items/img/Items-Logo.png" width="40" /> **Items Script** {#items}
+## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Items/img/Items-Logo.png" width="40" /> Items Script
+
+### <a id="items-script"></a>
 
 [![Install](https://img.shields.io/badge/Install-ff4500?style=for-the-badge)](https://host.xeidamoka.com/DeadFrontier/Scripts/Items/File/Items.user.js)
 
@@ -78,7 +91,9 @@ Scripts auto-update via GitHub, enable them in the Tampermonkey dashboard.
 
 ---
 
-## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Market/img/Market-Logo.png" width="40" /> **Market Script** {#market}
+## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Market/img/Market-Logo.png" width="40" /> Market Script
+
+### <a id="market-script"></a>
 
 [![Install](https://img.shields.io/badge/Install-000099?style=for-the-badge)](https://host.xeidamoka.com/DeadFrontier/Scripts/Market/File/Market.user.js)
 
@@ -96,7 +111,9 @@ Scripts auto-update via GitHub, enable them in the Tampermonkey dashboard.
 
 ---
 
-## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Missions/img/Missions-Logo.png" width="40" /> **Missions Script** {#missions}
+## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Missions/img/Missions-Logo.png" width="40" /> Missions Script
+
+### <a id="missions-script"></a>
 
 [![Install](https://img.shields.io/badge/Install-660000?style=for-the-badge)](https://host.xeidamoka.com/DeadFrontier/Scripts/Missions/File/Missions.user.js)
 
@@ -108,7 +125,9 @@ Scripts auto-update via GitHub, enable them in the Tampermonkey dashboard.
 
 ---
 
-## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Cheapest/img/Cheapest-Logo.png" width="40" /> **Cheapest Script** {#cheapest}
+## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Cheapest/img/Cheapest-Logo.png" width="40" /> Cheapest Script
+
+### <a id="cheapest-script"></a>
 
 [![Install](https://img.shields.io/badge/Install-999900?style=for-the-badge)](https://host.xeidamoka.com/DeadFrontier/Scripts/Cheapest/File/Cheapest.user.js)
 
@@ -123,7 +142,9 @@ Scripts auto-update via GitHub, enable them in the Tampermonkey dashboard.
 
 ---
 
-## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Favorites/img/Favorites-Logo.png" width="40" /> **Favorites Script** {#favorites}
+## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Favorites/img/Favorites-Logo.png" width="40" /> Favorites Script
+
+### <a id="favorites-script"></a>
 
 [![Install](https://img.shields.io/badge/Install-990099?style=for-the-badge)](https://host.xeidamoka.com/DeadFrontier/Scripts/Favorites/File/Favorites.user.js)
 
@@ -141,9 +162,12 @@ Scripts auto-update via GitHub, enable them in the Tampermonkey dashboard.
 
 ---
 
-## Sources {#sources}
+## Sources
 
-[![Website](https://img.shields.io/badge/%F0%9F%8C%90_Website-330066?style=for-the-badge)](https://xeidamoka.com/DeadFrontier/Scripts)  [![GitHub](https://img.shields.io/badge/GitHub-003366?style=for-the-badge&logo=github&logoColor=white)](https://github.com/XeiDaMoKa/Dead-Frontier)  [![Support](https://img.shields.io/badge/%F0%9F%A7%9F_Support-663300?style=for-the-badge)](https://fairview.deadfrontier.com/onlinezombiemmo/index.php?action=pm;sa=send)  [![Bugs](https://img.shields.io/badge/%F0%9F%90%9E_Issues-660000?style=for-the-badge)](https://github.com/XeiDaMoKa/Dead-Frontier/issues)
+[![Website](https://img.shields.io/badge/%F0%9F%8C%90_Website-330066?style=for-the-badge)](https://xeidamoka.com/DeadFrontier/Scripts)
+[![GitHub](https://img.shields.io/badge/GitHub-003366?style=for-the-badge&logo=github&logoColor=white)](https://github.com/XeiDaMoKa/Dead-Frontier)
+[![Support](https://img.shields.io/badge/%F0%9F%A7%9F_Support-663300?style=for-the-badge)](https://fairview.deadfrontier.com/onlinezombiemmo/index.php?action=pm;sa=send)
+[![Issues](https://img.shields.io/badge/%F0%9F%90%9E_Issues-660000?style=for-the-badge)](https://github.com/XeiDaMoKa/Dead-Frontier/issues)
 
 ---
 
