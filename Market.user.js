@@ -1,16 +1,16 @@
 // ==UserScript==
-// @name                      Dead Frontier - Market
-// @version                  1.0.0
-// @description           Adds Drag and Drop Features to search items in the market and search services, Colors item names in market lists. Filters service results to show cheapest per level.
-// @author                  XeiDaMoKa [2373510]
-// @source                  https://github.com/XeiDaMoKa/Dead-Frontier
-// @downloadURL     https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Market.user.js
-// @updateURL          https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Market.user.js
-// @supportURL        https://fairview.deadfrontier.com/onlinezombiemmo/index.php?action=pm;sa=send
-// @supportURL        https://github.com/XeiDaMoKa/Dead-Frontier/issues
-// @match                  https://fairview.deadfrontier.com/*
-// @icon                     https://www.google.com/s2/favicons?sz=64&domain=deadfrontier.com
-// @grant                   GM_xmlhttpRequest
+// @name           Dead Frontier - Market
+// @version        1.0.0
+// @description    Adds Drag and Drop Features to search items in the market and search services, Colors item names in market lists. Filters service results to show cheapest per level.
+// @author         XeiDaMoKa [2373510]
+// @source         https://github.com/XeiDaMoKa/Dead-Frontier
+// @downloadURL    https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Market.user.js
+// @updateURL      https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Market.user.js
+// @supportURL     https://fairview.deadfrontier.com/onlinezombiemmo/index.php?action=pm;sa=send
+// @supportURL     https://github.com/XeiDaMoKa/Dead-Frontier/issues
+// @match          https://fairview.deadfrontier.com/*
+// @icon           https://host.xeidamoka.com/DeadFrontier/Scripts/Market/img/Market-Logo.png
+// @grant          GM_xmlhttpRequest
 // ==/UserScript==
 
 (function() {

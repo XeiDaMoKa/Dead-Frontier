@@ -1,16 +1,16 @@
 // ==UserScript==
-// @name                        Dead Frontier - Layout
-// @version                     1.00
-// @description              Organizes Side bar, Adds icons to outpost and favorites.
-// @author                      XeiDaMoKa [2373510]
-// @source                      https://github.com/XeiDaMoKa/Dead-Frontier
-// @downloadURL          https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Layouts.user.js
-// @updateURL              https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Layouts.user.js
-// @supportURL             https://fairview.deadfrontier.com/onlinezombiemmo/index.php?action=pm;sa=send
-// @supportURL             https://github.com/XeiDaMoKa/Dead-Frontier/issues
-// @match                       https://fairview.deadfrontier.com/*
-// @icon                          https://www.google.com/s2/favicons?sz=64&domain=deadfrontier.com
-// @grant                        GM_xmlhttpRequest
+// @name           Dead Frontier - Layout
+// @version        1.00
+// @description    Organizes Side bar, Adds icons to outpost and favorites.
+// @author         XeiDaMoKa [2373510]
+// @source         https://github.com/XeiDaMoKa/Dead-Frontier
+// @downloadURL    https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Layouts.user.js
+// @updateURL      https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Layouts.user.js
+// @supportURL     https://fairview.deadfrontier.com/onlinezombiemmo/index.php?action=pm;sa=send
+// @supportURL     https://github.com/XeiDaMoKa/Dead-Frontier/issues
+// @match          https://fairview.deadfrontier.com/*
+// @icon           https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Logo.png
+// @grant          GM_xmlhttpRequest
 // ==/UserScript==
 
 (function () {
@@ -49,11 +49,11 @@
         if (match) {
             const count = parseInt(match[1]);
             if (count === 0) {
-                return '<img src="https://i.imgur.com/8bI7gYU.png" style="width: 18.5px; height: 18.5px; vertical-align: middle; filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.8)) drop-shadow(0 0 3px rgba(0, 0, 0, 1)); margin-top: 5px;">';
+                return '<img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Mail.png" style="width: 18.5px; height: 18.5px; vertical-align: middle; filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.8)) drop-shadow(0 0 3px rgba(0, 0, 0, 1)); margin-top: 5px;">';
             }
             return `<span style="color: #bb0000; font-weight: bold; margin-top: 9px; display: inline-block;">${count}</span>`;
         }
-        return '<img src="https://i.imgur.com/8bI7gYU.png" style="width: 18.5px; height: 18.5px; vertical-align: middle; filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.8)) drop-shadow(0 0 3px rgba(0, 0, 0, 1)); margin-top: 5px;">';
+        return '<img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Mail.png" style="width: 18.5px; height: 18.5px; vertical-align: middle; filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.8)) drop-shadow(0 0 3px rgba(0, 0, 0, 1)); margin-top: 5px;">';
     }
 
     // Rearranges player info like username, cash, credits, and XP progress bar for a cleaner sidebar look.
@@ -854,40 +854,40 @@
                     return img;
                 };
                 if (fav.emoji === 'bank-image') {
-                    favLink.appendChild(createFavImage('https://i.imgur.com/4Hm6RuN.png', 'Bank'));
+                    favLink.appendChild(createFavImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Bank.png', 'Bank'));
                 } else if (fav.emoji === 'the-yard-image') {
                     favLink.appendChild(createFavImage('https://i.imgur.com/Khkgire.png', 'The Yard'));
                 } else if (fav.emoji === 'marketplace-image') {
-                    const img = createFavImage('https://i.imgur.com/pSmrTcn.png', 'Marketplace', true);
+                    const img = createFavImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Market.png', 'Marketplace', true);
                     img.style.width = '20px';
                     img.style.height = '20px';
                     favLink.appendChild(img);
                 } else if (fav.emoji === 'storage-image') {
-                    favLink.appendChild(createFavImage('https://i.imgur.com/U0AEFBI.png', 'Storage'));
+                    favLink.appendChild(createFavImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Storage.png', 'Storage'));
                 } else if (fav.emoji === 'arena-image') {
-                    favLink.appendChild(createFavImage('https://i.imgur.com/NOJUKHp.png', 'Arena'));
+                    favLink.appendChild(createFavImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Arena.png', 'Arena'));
                 } else if (fav.emoji === 'crafting-image') {
-                    favLink.appendChild(createFavImage('https://i.imgur.com/6obmSgj.png', 'Crafting'));
+                    favLink.appendChild(createFavImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Craft.png', 'Crafting'));
                 } else if (fav.emoji === 'meeting-hall-image') {
-                    favLink.appendChild(createFavImage('https://i.imgur.com/BV6jHSl.png', 'Meeting Hall'));
+                    favLink.appendChild(createFavImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Meeting.png', 'Meeting Hall'));
                 } else if (fav.emoji === 'vendor-image') {
-                    favLink.appendChild(createFavImage('https://i.imgur.com/foFLMwv.png', 'Vendor'));
+                    favLink.appendChild(createFavImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Vendor.png', 'Vendor'));
                 } else if (fav.emoji === 'gambling-den-image') {
-                    favLink.appendChild(createFavImage('https://i.imgur.com/F8SQs8x.png', 'Gambling Den'));
+                    favLink.appendChild(createFavImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Gambling.png', 'Gambling Den'));
                 } else if (fav.emoji === 'records-image') {
-                    favLink.appendChild(createFavImage('https://i.imgur.com/F9Fpeu9.png', 'Records'));
+                    favLink.appendChild(createFavImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Records.png', 'Records'));
                 } else if (fav.emoji === 'clan-hq-image') {
-                    favLink.appendChild(createFavImage('https://i.imgur.com/5lLzdgI.png', 'Clan HQ'));
+                    favLink.appendChild(createFavImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Clan.png', 'Clan HQ'));
                 } else if (fav.emoji === 'inner-city-image') {
-                    favLink.appendChild(createFavImage('https://i.imgur.com/tPNvJDc.png', 'Inner City'));
+                    favLink.appendChild(createFavImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-City.png', 'Inner City'));
                 } else if (fav.emoji === 'fast-travel-image') {
-                    favLink.appendChild(createFavImage('https://i.imgur.com/ZSS2KeQ.png', 'Fast Travel'));
+                    favLink.appendChild(createFavImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Travel.png', 'Fast Travel'));
                 } else if (fav.emoji === 'arcade-image') {
-                    favLink.appendChild(createFavImage('https://i.imgur.com/2XAOc1G.png', 'Arcade'));
+                    favLink.appendChild(createFavImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Arcade.png', 'Arcade'));
                 } else if (fav.emoji === 'supply-officer-image') {
-                    favLink.appendChild(createFavImage('https://i.imgur.com/SB95QRo.png', 'Supply Officer'));
+                    favLink.appendChild(createFavImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Supply.png', 'Supply Officer'));
                 } else if (fav.emoji === 'collection-book-image') {
-                    favLink.appendChild(createFavImage('https://i.imgur.com/n6pVhqn.png', 'Collection Book'));
+                    favLink.appendChild(createFavImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Collection.png', 'Collection Book'));
                 }
                 else {
                     favLink.textContent = fav.emoji;
@@ -971,60 +971,60 @@
             };
             switch (normalizedText) {
                 case 'Bank':
-                    emoji = createButtonImage('https://i.imgur.com/4Hm6RuN.png', 'Bank');
+                    emoji = createButtonImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Bank.png', 'Bank');
                     emoji.style.width = '26px';
                     emoji.style.height = '26px';
                     break;
                 case 'The Yard':
-                    emoji = createButtonImage('https://i.imgur.com/Khkgire.png', 'The Yard');
+                    emoji = createButtonImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Yard.png', 'The Yard');
                     break;
                 case 'Marketplace':
                 case 'Trading':
-                    emoji = createButtonImage('https://i.imgur.com/pSmrTcn.png', 'Marketplace', true);
+                    emoji = createButtonImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Market.png', 'Marketplace', true);
                     break;
                 case 'Storage':
-                    emoji = createButtonImage('https://i.imgur.com/U0AEFBI.png', 'Storage');
+                    emoji = createButtonImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Storage.png', 'Storage');
                     break;
                 case 'Clan HQ':
-                    emoji = createButtonImage('https://i.imgur.com/5lLzdgI.png', 'Clan HQ');
+                    emoji = createButtonImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Clan.png', 'Clan HQ');
                     emoji.style.width = '32px';
                     emoji.style.height = '32px';
                     break;
                 case 'Crafting':
-                    emoji = createButtonImage('https://i.imgur.com/6obmSgj.png', 'Crafting');
+                    emoji = createButtonImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Craft.png', 'Crafting');
                     break;
                 case 'Records':
-                    emoji = createButtonImage('https://i.imgur.com/F9Fpeu9.png', 'Records');
+                    emoji = createButtonImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Records.png', 'Records');
                     break;
                 case 'Meeting Hall':
-                    emoji = createButtonImage('https://i.imgur.com/BV6jHSl.png', 'Meeting Hall');
+                    emoji = createButtonImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Meeting.png', 'Meeting Hall');
                     break;
                 case 'Vendor':
-                    emoji = createButtonImage('https://i.imgur.com/foFLMwv.png', 'Vendor');
+                    emoji = createButtonImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Vendor.png', 'Vendor');
                     break;
                 case 'Gambling Den':
-                    emoji = createButtonImage('https://i.imgur.com/F8SQs8x.png', 'Gambling Den');
+                    emoji = createButtonImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Gambling.png', 'Gambling Den');
                     break;
                 case 'Fast Travel':
-                    emoji = createButtonImage('https://i.imgur.com/ZSS2KeQ.png', 'Fast Travel');
+                    emoji = createButtonImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Travel.png', 'Fast Travel');
                     break;
                 case 'Arcade':
-                    emoji = createButtonImage('https://i.imgur.com/2XAOc1G.png', 'Arcade');
+                    emoji = createButtonImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Arcade.png', 'Arcade');
                     break;
                 case 'Supply Officer':
-                    emoji = createButtonImage('https://i.imgur.com/SB95QRo.png', 'Supply Officer');
+                    emoji = createButtonImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Supply.png', 'Supply Officer');
                     break;
                 default:
                     if (normalizedText.includes('Inner City')) {
-                        emoji = createButtonImage('https://i.imgur.com/68sN0bZ.png', 'Inner City');
+                        emoji = createButtonImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-City.png', 'Inner City');
                     } else if (normalizedText.includes('Arena')) {
-                        emoji = createButtonImage('https://i.imgur.com/NOJUKHp.png', 'Arena');
+                        emoji = createButtonImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Arena.png', 'Arena');
                     } else if (normalizedText.includes('Supply') && normalizedText.includes('Officer')) {
-                        emoji = createButtonImage('https://i.imgur.com/SB95QRo.png', 'Supply Officer');
+                        emoji = createButtonImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Supply.png', 'Supply Officer');
                         emoji.style.width = '36px';
                         emoji.style.height = '36px';
                     } else if (button.dataset.page === '86') {
-                        emoji = createButtonImage('https://i.imgur.com/SB95QRo.png', 'Supply Officer');
+                        emoji = createButtonImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Supply.png', 'Supply Officer');
                     }
                     break;
             }
@@ -1135,7 +1135,7 @@ function processCollectionBook() {
             const emojiKey = 'collection-book-image';
             // Create icon for Collection Book
             const img = document.createElement('img');
-            img.src = 'https://i.imgur.com/n6pVhqn.png';
+            img.src = 'https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Collection.png';
             img.alt = 'Collection Book';
             img.style.width = '17px';
             img.style.height = '17px';
@@ -1232,19 +1232,19 @@ function processCollectionBook() {
             link.style.display = 'inline-block';
             link.style.textShadow = 'none';
             if (href === 'index.php?page=25' && currentText.includes('Inventory')) {
-                newContent = createMenuImage('https://i.imgur.com/xaw2Zqe.png', 'Inventory');
+                newContent = createMenuImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Inventory.png', 'Inventory');
                 isImage = true;
             } else if (href === 'index.php?action=pm' && currentText.includes('Message')) {
                 newContent = getMessageEmoji(currentText);
                 isImage = false;
             } else if (href === 'index.php?action=profile' && currentText.includes('Profile')) {
-                newContent = createMenuImage('https://i.imgur.com/uSNQarU.png', 'Profile', true);
+                newContent = createMenuImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Profile.png', 'Profile', true);
                 isImage = true;
             } else if (href === 'index.php?page=62' && currentText.includes('Challenges')) {
-                newContent = createMenuImage('https://i.imgur.com/6qNb4bM.png', 'Challenges');
+                newContent = createMenuImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Masteries.png', 'Challenges');
                 isImage = true;
             } else if (href === 'index.php?page=81' && currentText.includes('Masteries')) {
-                newContent = createMenuImage('https://i.imgur.com/58PodWi.png', 'Masteries', true);
+                newContent = createMenuImage('https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Icon-Masteries.png', 'Masteries', true);
                 isImage = true;
             }
             if (newContent) {

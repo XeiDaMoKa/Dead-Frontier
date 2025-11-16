@@ -1,16 +1,16 @@
 // ==UserScript==
-// @name                     Dead Frontier - Cheapest
-// @version                 1.0.0
-// @description          Highlights the cheapest item(s) in the Inner City inventory based on scrap value for easy dicard. Allows ignoring specific items via drag-and-drop and highlights them in red.
-// @author                  XeiDaMoKa [2373510]
-// @source                  https://github.com/XeiDaMoKa/Dead-Frontier
-// @downloadURL     https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Cheapest.user.js
-// @updateURL         https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Cheapest.user.js
-// @supportURL       https://fairview.deadfrontier.com/onlinezombiemmo/index.php?action=pm;sa=send
-// @supportURL       https://github.com/XeiDaMoKa/Dead-Frontier/issues
-// @match                 https://fairview.deadfrontier.com/*
-// @icon                     https://www.google.com/s2/favicons?sz=64&domain=deadfrontier.com
-// @grant                  GM_xmlhttpRequest
+// @name           Dead Frontier - Cheapest
+// @version        1.0.0
+// @description    Highlights the cheapest item(s) in the Inner City inventory based on scrap value for easy dicard. Allows ignoring specific items via drag-and-drop and highlights them in red.
+// @author         XeiDaMoKa [2373510]
+// @source         https://github.com/XeiDaMoKa/Dead-Frontier
+// @downloadURL    https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Cheapest.user.js
+// @updateURL      https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Cheapest.user.js
+// @supportURL     https://fairview.deadfrontier.com/onlinezombiemmo/index.php?action=pm;sa=send
+// @supportURL     https://github.com/XeiDaMoKa/Dead-Frontier/issues
+// @match          https://fairview.deadfrontier.com/*
+// @icon           https://host.xeidamoka.com/DeadFrontier/Scripts/Cheapest/img/Cheapest-Logo.png
+// @grant          GM_xmlhttpRequest
 // ==/UserScript==
 
 (function() {
