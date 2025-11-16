@@ -3,9 +3,9 @@
 // @version        1.0.0
 // @description    Enhancments for Layout Script, adds Deposit and Withdraw buttons to Favorited bank icon, adds quick buy bullets and compares medical and food items prices and their effects.
 // @author         XeiDaMoKa [2373510]
-// @source         https://github.com/XeiDaMoKa/Dead-Frontier
-// @downloadURL    https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Favorites.user.js
-// @updateURL      https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Favorites.user.js
+// @source         https://xeidamoka.com/DeadFrontier/Scripts/Favorites
+// @downloadURL    https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Favorites.user.js
+// @updateURL      hhttps://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Favorites.user.js
 // @supportURL     https://fairview.deadfrontier.com/onlinezombiemmo/index.php?action=pm;sa=send
 // @supportURL     https://github.com/XeiDaMoKa/Dead-Frontier/issues
 // @match          https://fairview.deadfrontier.com/*

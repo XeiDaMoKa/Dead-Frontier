@@ -3,9 +3,9 @@
 // @version        1.0.0
 // @description    Displays market value in the item tooltips with scrap price comparison (depends on item colors.) Saves collection book items to storage by visiting each tab and displays on tooltips (doesn't depend on item colors.)
 // @author         XeiDaMoKa [2373510]
-// @source         https://github.com/XeiDaMoKa/Dead-Frontier
-// @downloadURL    https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Prices.user.js
-// @updateURL      https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Prices.user.js
+// @source         https://xeidamoka.com/DeadFrontier/Scripts/Prices
+// @downloadURL    https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Prices.user.js
+// @updateURL      https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Prices.user.js
 // @supportURL     https://fairview.deadfrontier.com/onlinezombiemmo/index.php?action=pm;sa=send
 // @supportURL     https://github.com/XeiDaMoKa/Dead-Frontier/issues
 // @match          https://fairview.deadfrontier.com/*
@@ -19,9 +19,7 @@
     if (infoBox) infoBox.style.pointerEvents = 'none';
     const colors = [
         'white', 'grey', 'black', 'brown', 'red', 'blue', 'green', 'yellow', 'cyan', 'orange', 'pink', 'purple',
-        'desert camo',
-        'forest camo',
-        'urban camo'
+        'desert camo', 'forest camo', 'urban camo'
     ];
     const marketCache = new Map();
     const searchedItems = new Set();

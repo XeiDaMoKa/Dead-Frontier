@@ -3,9 +3,9 @@
 // @version        1.0
 // @description    Replaces default images with their coorect colored sources. Repositions / Zooms items in their slots and tooltip popups. If some item is missing / invisible add it below in the IMAGES object with its correct source link (Dev Tools > Network).
 // @author         XeiDaMoKa [2373510]
-// @source         https://github.com/XeiDaMoKa/Dead-Frontier
-// @downloadURL    https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Items.user.js
-// @updateURL      https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Items.user.js
+// @source         https://xeidamoka.com/DeadFrontier/Scripts/Items
+// @downloadURL    https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Items.user.js
+// @updateURL      https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Items.user.js
 // @supportURL     https://fairview.deadfrontier.com/onlinezombiemmo/index.php?action=pm;sa=send
 // @supportURL     https://github.com/XeiDaMoKa/Dead-Frontier/issues
 // @match          https://fairview.deadfrontier.com/*

@@ -3,9 +3,9 @@
 // @version        1.00
 // @description    Organizes Side bar, Adds icons to outpost and favorites.
 // @author         XeiDaMoKa [2373510]
-// @source         https://github.com/XeiDaMoKa/Dead-Frontier
-// @downloadURL    https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Layouts.user.js
-// @updateURL      https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Dead%20Frontier%20-%20Layouts.user.js
+// @source         https://xeidamoka.com/DeadFrontier/Scripts/Layouts
+// @downloadURL    https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Layouts.user.js
+// @updateURL      https://github.com/XeiDaMoKa/Dead-Frontier/raw/main/Layouts.user.js
 // @supportURL     https://fairview.deadfrontier.com/onlinezombiemmo/index.php?action=pm;sa=send
 // @supportURL     https://github.com/XeiDaMoKa/Dead-Frontier/issues
 // @match          https://fairview.deadfrontier.com/*
