@@ -18,27 +18,25 @@ Any kind of suggestions, problems or bugs let me know at
 or
 [![Issues](https://img.shields.io/badge/%F0%9F%90%9E_Issues-660000?style=for-the-badge)](https://github.com/XeiDaMoKa/Dead-Frontier/issues)
 
-Scripts auto-update via GitHub, enable them in the Tampermonkey dashboard.
-
 ---
 ---
 
 ## Index
 
-- [Layouts Script](#layouts-script)
-- [Prices Script](#prices-script)
-- [Items Script](#items-script)
-- [Market Script](#market-script)
-- [Missions Script](#missions-script)
-- [Cheapest Script](#cheapest-script)
-- [Favorites Script](#favorites-script)
+- [Layouts Script](#layouts)
+- [Prices Script](#prices)
+- [Items Script](#items)
+- [Market Script](#market)
+- [Missions Script](#missions)
+- [Cheapest Script](#cheapest)
+- [Favorites Script](#favorites)
 - [Sources](#sources)
 
 ---
 
-## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Logo.png" width="40" /> Layouts Script
+### <a id="layouts"></a>
 
-### <a id="layouts-script"></a>
+## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/img/Layouts-Logo.png" width="40" /> Layouts Script
 
 [![Install](https://img.shields.io/badge/Install-660099?style=for-the-badge)](https://host.xeidamoka.com/DeadFrontier/Scripts/Layouts/File/Layouts.user.js)
 
@@ -46,10 +44,10 @@ Scripts auto-update via GitHub, enable them in the Tampermonkey dashboard.
 - Comfortaa Font (change code to any Google Font)
 - Organizes the side bar layout
 - Adds icons to Outpost locations
-- Hold icons to add to favorites (includes collection box)
+- Hold icons to add to favorites (includes collection book)
 - Dynamic weapon sidebar layout depending on weapons equipped
-- Adds colored XP % for next level
-- Removes % from stats and adds missing value
+- Adds colored XP % for next level (red > yellow > green)
+- Removes % from status and adds missing value
 - Removes 100% text and adds green glow to the image
 - Boss Map toggle on top of the page
 - OA warning system in page
@@ -59,16 +57,16 @@ Scripts auto-update via GitHub, enable them in the Tampermonkey dashboard.
 
 ---
 
-## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Prices/img/Prices-Logo.png" width="40" /> Prices Script
+### <a id="prices"></a>
 
-### <a id="prices-script"></a>
+## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Prices/img/Prices-Logo.png" width="40" /> Prices Script
 
 [![Install](https://img.shields.io/badge/Install-006600?style=for-the-badge)](https://host.xeidamoka.com/DeadFrontier/Scripts/Prices/File/Prices.user.js)
 
 ### Features
 - Lowest market prices in tooltip on item hover (60sec) (color dependent)
 - Displays difference between scrap and market price
-- For bullets shows full price for your quantity in cheapest market price per unit
+- For bullets shows full price for your quantity in the cheapest market price per unit
 - Collection Book in tooltip (visit once each category tab to update)
 
 ![Prices Script](https://host.xeidamoka.com/DeadFrontier/Scripts/Prices/img/Prices-Guide-1.png)
@@ -76,9 +74,9 @@ Scripts auto-update via GitHub, enable them in the Tampermonkey dashboard.
 
 ---
 
-## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Items/img/Items-Logo.png" width="40" /> Items Script
+### <a id="items"></a>
 
-### <a id="items-script"></a>
+## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Items/img/Items-Logo.png" width="40" /> Items Script
 
 [![Install](https://img.shields.io/badge/Install-ff4500?style=for-the-badge)](https://host.xeidamoka.com/DeadFrontier/Scripts/Items/File/Items.user.js)
 
@@ -91,16 +89,16 @@ Scripts auto-update via GitHub, enable them in the Tampermonkey dashboard.
 
 ---
 
-## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Market/img/Market-Logo.png" width="40" /> Market Script
+### <a id="market"></a>
 
-### <a id="market-script"></a>
+## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Market/img/Market-Logo.png" width="40" /> Market Script
 
 [![Install](https://img.shields.io/badge/Install-000099?style=for-the-badge)](https://host.xeidamoka.com/DeadFrontier/Scripts/Market/File/Market.user.js)
 
 ### Features
 - Colors the item names in the market
 - Drag & Drop items in the Market Display to normal search
-- Drag & Drop on the Market icon from any page (requires Layout script)
+- Drag & Drop on the favorited Market icon from any page (requires Layout script)
 - Drag & Drop in the Search bar to search for services
 - Shows only the cheapest service per level
 - Shows the value of sold items in message headers
@@ -111,9 +109,9 @@ Scripts auto-update via GitHub, enable them in the Tampermonkey dashboard.
 
 ---
 
-## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Missions/img/Missions-Logo.png" width="40" /> Missions Script
+### <a id="missions"></a>
 
-### <a id="missions-script"></a>
+## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Missions/img/Missions-Logo.png" width="40" /> Missions Script
 
 [![Install](https://img.shields.io/badge/Install-660000?style=for-the-badge)](https://host.xeidamoka.com/DeadFrontier/Scripts/Missions/File/Missions.user.js)
 
@@ -125,9 +123,9 @@ Scripts auto-update via GitHub, enable them in the Tampermonkey dashboard.
 
 ---
 
-## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Cheapest/img/Cheapest-Logo.png" width="40" /> Cheapest Script
+### <a id="cheapest"></a>
 
-### <a id="cheapest-script"></a>
+## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Cheapest/img/Cheapest-Logo.png" width="40" /> Cheapest Script
 
 [![Install](https://img.shields.io/badge/Install-999900?style=for-the-badge)](https://host.xeidamoka.com/DeadFrontier/Scripts/Cheapest/File/Cheapest.user.js)
 
@@ -135,26 +133,27 @@ Scripts auto-update via GitHub, enable them in the Tampermonkey dashboard.
 - Works only in Inner City inventory
 - Highlights the cheapest item in scrap in yellow
 - Drop the item in the text area to ignore/un-ignore
-- Ignored items highlighted in red
+- Ignored items highlighted in red when text is hovered
 
 ![Cheapest Script](https://host.xeidamoka.com/DeadFrontier/Scripts/Cheapest/img/Cheapest-Guide-1.png)
 ![Cheapest Script](https://host.xeidamoka.com/DeadFrontier/Scripts/Cheapest/img/Cheapest-Guide-2.png)
 
 ---
 
-## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Favorites/img/Favorites-Logo.png" width="40" /> Favorites Script
+### <a id="favorites"></a>
 
-### <a id="favorites-script"></a>
+## <img src="https://host.xeidamoka.com/DeadFrontier/Scripts/Favorites/img/Favorites-Logo.png" width="40" /> Favorites Script
 
 [![Install](https://img.shields.io/badge/Install-990099?style=for-the-badge)](https://host.xeidamoka.com/DeadFrontier/Scripts/Favorites/File/Favorites.user.js)
 
 ### Features
 (This script is just enhancements for the Layout script favorite feature)
 - Adds deposit and withdraw to Bank icon
-- Each click is your chosen value (edit code)
-- Market icon shows medical , bullets and food
+- Each click in the value input is your chosen value (edit code)
+- Market icon shows medical , bullets and food (change code for the items you want)
+- Green highlist in the Cheapest by points assuming service (edit values in code)
 - Compares prices with value to show the cheapest
-- Replaces money on hand warning with deposit button
+- Replaces money on hand warning with deposit all button
 
 ![Favorites Script](https://host.xeidamoka.com/DeadFrontier/Scripts/Favorites/img/Favorites-Guide-2.png)
 ![Favorites Script](https://host.xeidamoka.com/DeadFrontier/Scripts/Favorites/img/Favorites-Guide-1.png)
@@ -175,6 +174,6 @@ Scripts auto-update via GitHub, enable them in the Tampermonkey dashboard.
 - **XeiDaMoKa**
 
 ### Special Thanks
-- **Vega**: Inspiration for many script concepts
+- **Zega**: Inspiration for many script concepts
 - **HotRods**: Pending permission
 - **AI**: Made some things easy, others not so much
